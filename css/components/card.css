@@ -25,4 +25,11 @@
 .card h3 {
   font-size: 24px;
   margin: 0;
+  color: #1e77c6;
+}
+
+.card h3:visited {
+  font-size: 24px;
+  margin: 0;
+  color: #0f406a;
 }

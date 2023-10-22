@@ -16,7 +16,7 @@
 }
 
 .banner-button:hover {
-  background-color: #fff;
-  color: #000;
+  background-color: #1e77c6;
+  color: #fff;
   transition: all 0.3s ease;
 }
