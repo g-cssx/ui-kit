@@ -1,13 +1,95 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>UI Kit</title>
+    <title>Greg's Ciné</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/75ed2513cd.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="banner">
+      <div class="container">
+        <h1>Greg's Ciné</h1>
+        <h2>Cinema is a mirror by which we often see ourselves</h2>
+        <a href="#contact-form" class="banner-button">Contactez moi</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <img
+        src="images/profile.webp"
+        class="avatar"
+        width="100px"
+        alt="Grégoire Coussieu"
+        draggable="false"
+      />
+      <h2>Choose your movies</h2>
+
+      <div class="cards">
+        <div class="card">
+          <img src="images/film/inc.jpg" alt="Inception" />
+          <h3>
+            <a
+              href="https://www.senscritique.com/film/inception/471143"
+              target="_blank"
+              >Inception</a
+            >
+          </h3>
+          <p>
+            Dom Cobb est un voleur expérimenté dans l'art périlleux de
+            `l'extraction' : sa spécialité consiste à s'approprier les secrets
+            les plus précieux d'un individu, enfouis au plus profond de son
+            subconscient, pendant qu'il rêve et que son esprit est
+            particulièrement vulnérable...
+          </p>
+        </div>
+
+        <div class="card">
+          <img src="images/film/int.jpg" alt="Interstellar" />
+          <h3>
+            <a
+              href="https://www.senscritique.com/film/interstellar/388583"
+              target="_blank"
+              >Interstellar</a
+            >
+          </h3>
+          <p>
+            Dans un futur proche, face à une Terre exsangue, un groupe
+            d'explorateurs utilise un vaisseau interstellaire pour franchir un
+            trou de ver permettant de parcourir des distances jusque-là
+            infranchissables. Leur but : trouver une nouvelle planète
+            habitable...
+          </p>
+        </div>
+
+        <div class="card">
+          <img src="images/film/tw.png" alt="The Wolf of Wall Street" />
+          <h3>
+            <a
+              href="https://www.senscritique.com/film/le_loup_de_wall_street/495281"
+              target="_blank"
+              >The Wolf of Wall Street</a
+            >
+          </h3>
+          <p>
+            L'histoire vraie de Jordan Belfort, un courtier en bourse qui passa
+            vingt mois en prison pour avoir refusé de participer à une
+            gigantesque arnaque, dévoilant la corruption et l'implication de la
+            pègre qui sévit à Wall Street et au-delà des États-Unis...
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact-form">
+      <div
+        data-tf-widget="dkX4D4J4"
+        data-tf-opacity="100"
+        data-tf-iframe-props="title=Questionnaire de critiques de films"
+        data-tf-transitive-search-params
+        data-tf-medium="extrait"
+        style="width: 100%; height: 500px"
+      ></div>
+      <script src="https://embed.typeform.com/next/embed.js"></script>
+    </div>
+  </body>
 </html>
